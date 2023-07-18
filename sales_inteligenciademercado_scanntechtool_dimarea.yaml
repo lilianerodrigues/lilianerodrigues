@@ -1,0 +1,18 @@
+name: DimArea
+description: Tabela de apoio para normalizar os dados de estados e  regiões da ScannTech Tool
+teamowner: Saleslab
+dataowner: Thais Andressa Peremida Santos - 99800150@ambev.com.br
+dataexpert: Marcio Gushiken - 99824242@ambev.com.br
+datalakezone: consumezone
+datalakepath: Brazil/Sales/InteligenciaDeMercado/SelfService/ScannTechTool/DimArea
+partitionbycolumn: 
+permission: public
+country: Brazil
+format: parquet
+schema:
+  - name: geo
+    description: Região
+    type: string
+  - name: uf
+    description: Sigla estado
+    type: string
